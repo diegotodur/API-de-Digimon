@@ -1,0 +1,55 @@
+ <!doctype html>
+<html lang="en">
+  
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="./SRC/CSS/styles.css">
+      <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script defer src="./SRC/JS/index.js"></script>
+      <link rel="shortcut icon" href="./SRC/IMG/agumon.webp" type="image/x-icon">
+    
+  </head>
+
+</head>
+
+<body class="bg-info-subtle">
+
+<body class="bg-info-subtle">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-sm-10 col-md-8 col-lg-6">
+        <h1 class="titulo text-center"><strong>DIGI API</strong></h1>
+         <div class="form-group text-center">
+          <label for="input_name" id="digititulo" class="form-label rounded-4"></label>
+          <input type="text" class="form-control" id="input_name" placeholder="Ingresa el nombre del Digimon">
+
+          <button onclick="digiAPI()" id="digiboton" class="btn btn-outline-light rounded-4 mt-2">Obtener</button>
+        </div>
+   </div>
+</div>
+  
+<section>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div id="card">
+                <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded position-absolute top-50 start-50 translate-middle rounded-4 bg-info-subtle card-small" style="width: 18rem;">
+                  <img src="./SRC/IMG/agumon.webp" class="card-img-top" alt="...">
+                   <div class="card-body">
+                    <div class="text-center">
+                         <p id = "diginame" class="card-text text-light ">Nombre: Agumon</p>
+                         <p id = "digilevel" class="card-text text-light ">Nivel: Rookie</p>
+                    </div>
+                   </div>
+                </div> 
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+</body>
+</html>
