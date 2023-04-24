@@ -43,5 +43,3 @@ function digiAPI () {
             document.getElementById("card").innerHTML = tarjetaError;
         });
 }
-
-
