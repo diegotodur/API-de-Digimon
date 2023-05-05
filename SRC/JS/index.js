@@ -50,7 +50,7 @@ digiButton.addEventListener('click', function() {
   
         let tarjeta = `
         <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded-4 position-absolute top-50 start-50 translate-middle rounded-4 bg-info-subtle card-small fade-in" style="width: 22rem; height: 30rem; border-radius: 20px;">
-        <img src="${imgDigi}" class="card-img-top fade-in " alt="..." height="350px">
+        <img src="${imgDigi}" class="card-img-top fade-in" alt="..." height="350px" style="border-radius:10px;">
             <div class="card-body">
               <div class="text-center">
                 <p id="diginame" class="card-text text-light"><strong>Nombre:</strong> ${nmDigi}</p>
