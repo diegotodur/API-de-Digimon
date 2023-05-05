@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(52, 52, 86);
+    background-color: rgb(188, 188, 188);
   }
   
 .titulo{
@@ -7,6 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: white;
+    margin: 10px;
     
 }
 
@@ -17,9 +18,85 @@ body{
 }
 #digiboton {
     margin: 20px;
+    background-color: rgb(180, 184, 184);
 }
 
-.card-small {
-    max-width: 20rem;
+.loader {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    background: #FFF;
+    box-sizing: border-box;
+    animation: shadowExpandX 2s linear infinite alternate;
   }
+  
+  @keyframes shadowExpandX {
+    0% {
+      box-shadow: 0 0, 0 0;
+      color: rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      box-shadow: -24px 0, 24px 0;
+      color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+
+  
   
