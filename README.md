@@ -1,23 +1,11 @@
-# DIGI SEARCH
+# DIGIMON API
 
-Busqueda de Digimones bajo el consumo de su API.
+Consumo de la API de digimon, manipulando el dom y usando Fetch en la obtencion de los datos.
 
-### Documentacion 🔧
+![Vista previa](https://github.com/itsmisce/API-de-Digimon/blob/main/layout.png)
 
-
-_Documentacion_
+### Documentación 🔧
 
 ```
 https://digimon-api.vercel.app/
 ```
-
-## Construido con 🛠️
-
-* [Javascript](https://www.javascript.com/) 
-* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - La libreria mas popular de HTML, CSS y JS en el mundo.
-
-
-## Autores ✒️
-
-* **Diego** - [itsmisce](https://github.com/itsmisce)
-
